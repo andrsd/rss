@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="<%- feed_url %>" rel="self" type="application/rss+xml"/>
+    <title><%- feed_title %></title>
+    <ttl><%- feed_ttl %></ttl>
+    <link><%- feed_link %></link>
+    <description><%- feed_description %></description>
+    <item>
+      <title><%- title %></title>
+      <link><%- link %></link>
+      <description><![CDATA[<%- content %>]]></description>
+      <pubDate><%- date %></pubDate>
+      <guid><%- guid %></guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  width: 1024px;
+  background-color: #f8f8f8;
+}
+
+#content {
+  padding: 50px 30px;
+  background-color: #fff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#footer {
+  width: 964px;
+  color: #fff;
+  background-color: #222;
+  padding: 10px 30px;
+}
+
+#footer div {
+  width: 964px;
+  text-align: right;
+}
